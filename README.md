@@ -1,1 +1,1 @@
-# Reign Of Guilds
+# Reign Of Guilds - https://reignofguilds.com/
