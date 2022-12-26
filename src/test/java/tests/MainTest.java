@@ -10,7 +10,7 @@ public class MainTest extends BaseTest {
     @Test(
             testName = "проверка заголовка главной страницы")
     public void test01() {
-        final String expTitle = "Classic MMORPG in dark magical middle ages";
+        final String expTitle = "Классическая MMORPG в мрачном средневековье";
 
         String actTitle = openBaseURL()
                 .getTitle();

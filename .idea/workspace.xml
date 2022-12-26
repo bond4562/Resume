@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ebb8cd9-76fe-47d3-b9b4-60e6af28a6e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/base_abstract/MainMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/base_abstract/MainMenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MainTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="0ebb8cd9-76fe-47d3-b9b4-60e6af28a6e5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,26 +79,9 @@
       <recent name="parallelTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MainTest (1)">
+  <component name="RunManager" selected="TestNG.MainTest.test03">
     <configuration name="MainTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Reign_of_Guilds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.MainTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Resume" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -155,6 +133,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.test03" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Reign_of_Guilds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MainTest" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest.test04" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Reign_of_Guilds" />
       <extension name="coverage">
@@ -175,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MainTest (1)" />
+        <item itemvalue="TestNG.MainTest.test03" />
         <item itemvalue="TestNG.MainTest.test04" />
+        <item itemvalue="TestNG.MainTest (1)" />
         <item itemvalue="TestNG.MainTest.test02" />
         <item itemvalue="TestNG.MainTest.test01" />
-        <item itemvalue="TestNG.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +189,9 @@
       <updated>1667881208395</updated>
       <workItem from="1672024302785" duration="586000" />
       <workItem from="1672028155345" duration="13021000" />
-      <workItem from="1672043818858" duration="2301000" />
+      <workItem from="1672043818858" duration="2594000" />
+      <workItem from="1672049550749" duration="193000" />
+      <workItem from="1672054677005" duration="716000" />
     </task>
     <servers />
   </component>

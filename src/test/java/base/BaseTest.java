@@ -17,7 +17,7 @@ import java.time.Duration;
 
 public abstract class BaseTest {
 
-    private final static String BASE_URL = "https://reignofguilds.com/";
+    private final static String BASE_URL = "https://reignofguilds.com/ru/";
 
     private WebDriver driver;
     private WebDriverWait webDriverWait;

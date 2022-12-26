@@ -13,5 +13,4 @@ public class MainPage extends TopBarPage {
         super(driver);
     }
 
-
 }
