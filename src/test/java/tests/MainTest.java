@@ -1,27 +1,51 @@
 package tests;
 
 import base.BaseTest;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Test;
+import java.util.List;
+import static org.testng.Assert.assertEquals;
 
 public class MainTest extends BaseTest {
 
-    @Test
-            (testName = "-тест-")
-    public void test() {
+    @Test(
+            testName = "проверка заголовка главной страницы")
+    public void test01() {
+        final String expTitle = "Classic MMORPG in dark magical middle ages";
 
-        openBaseURL();
-        WebElement click = getDriver().findElement(
-                By.xpath("//ul[@class=\"nav navbar-nav\"]/li/a[@href=\"/ru/alpha/\"]")
+        String actTitle = openBaseURL()
+                .getTitle();
+
+        assertEquals(actTitle, expTitle);
+    }
+
+    @Test(
+            testName = "проверка количества кнопок Main menu")
+    public void test02() {
+        final int expAmountButton = 7;
+
+        int actAmountButton = openBaseURL()
+                .amountButtonMainMenu();
+
+        assertEquals(actAmountButton, expAmountButton);
+    }
+
+    @Test(
+            testName = "проверка текста кнопок Main menu")
+    public void test03() {
+        final List<String> expButtonTexts = List.of(
+                "Новости",
+                "Дорожная карта",
+                "Альфа",
+                "Игра",
+                "Разработка",
+                "Медиа",
+                "Форум"
         );
-        click.click();
 
-        Assert.assertEquals(getDriver().getCurrentUrl(), "https://reignofguilds.com/ru/alpha/");
+        List<String> actButtonTexts = openBaseURL()
+                .searchButtonMainMenu();
 
-
-
+        assertEquals(actButtonTexts, expButtonTexts);
     }
 
 }

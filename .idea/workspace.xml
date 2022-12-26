@@ -5,43 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ebb8cd9-76fe-47d3-b9b4-60e6af28a6e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/cancel.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/BaseUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AboutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AlphaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ConceptArtPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ContactPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FAQPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GlossaryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PreorderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ScreenshotsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SignupPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/StatusPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/VideoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/base_abstract/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/base_abstract/FooterMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/base_abstract/LeftSideBarNewsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/base_abstract/MainMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/base_abstract/NewsMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/base_abstract/TopBarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/DateTimeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ReportUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/local.properties.TEMPLATE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +40,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2HFWEhuuzkWkOqPCHwBq6oefYyx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -84,29 +54,70 @@
     "Git.Branch.Popup.ShowAllRemotes": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/git/JStudy/Resume/src/test/java/pages",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Kisan/AquaProjects/Resume/src/test/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict"
+    "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kisan\AquaProjects\Resume\src\test\resources" />
       <recent name="C:\git\JStudy\Resume\src\test\java\pages" />
       <recent name="C:\git\JStudy\Resume\src\test\java" />
       <recent name="C:\git\JStudy\Resume\src\test\java\utils" />
       <recent name="C:\git\JStudy\Resume\src\test" />
-      <recent name="C:\git\JStudy\Resume" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="parallelTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MainTest">
+  <component name="RunManager" selected="TestNG.MainTest (1)">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Reign_of_Guilds" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Reign_of_Guilds" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Reign_of_Guilds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="API_MainTest.test33" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OpenWeatherJava_05" />
+      <module name="Reign_of_Guilds" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.api.*" />
@@ -123,44 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="API_MainTest.testApi" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OpenWeatherJava_05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.api" />
-      <option name="MAIN_CLASS_NAME" value="tests.api.API_MainTest" />
-      <option name="METHOD_NAME" value="testApi" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="API_MainTest.testOne" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OpenWeatherJava_05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.api" />
-      <option name="MAIN_CLASS_NAME" value="tests.api.API_MainTest" />
-      <option name="METHOD_NAME" value="testOne" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OpenWeatherJava_05" />
+    <configuration name="MainTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Reign_of_Guilds" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -168,7 +143,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.FindTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.MainTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -193,13 +168,92 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Reign_of_Guilds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MainTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.test02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Reign_of_Guilds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MainTest" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Reign_of_Guilds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="Reign_of_Guilds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Reign_of_Guilds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MainTest (1)" />
+        <item itemvalue="TestNG.MainTest.test02" />
+        <item itemvalue="TestNG.MainTest.test01" />
         <item itemvalue="TestNG.MainTest" />
         <item itemvalue="TestNG.API_MainTest.test33" />
-        <item itemvalue="TestNG.API_MainTest.testOne" />
-        <item itemvalue="TestNG.API_MainTest.testApi" />
-        <item itemvalue="TestNG.FindTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,15 +265,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667881208395</updated>
+      <workItem from="1672024302785" duration="586000" />
+      <workItem from="1672028155345" duration="2983000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -235,11 +306,11 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OpenWeatherJava_05$API_MainTest_testApi.ic" NAME="API_MainTest.testApi Coverage Results" MODIFIED="1671087238580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>tests.api.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/OpenWeatherJava_05$CrossBrowserScript.ic" NAME="CrossBrowserScript Coverage Results" MODIFIED="1671264895800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>parallelTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/OpenWeatherJava_05$API_MainTest_testApi.ic" NAME="API_MainTest.testApi Coverage Results" MODIFIED="1671087238580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.api.*</FILTER>
     </SUITE>
   </component>
 </project>
