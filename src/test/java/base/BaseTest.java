@@ -66,7 +66,7 @@ public abstract class BaseTest {
     public MainPage openBaseURL() {
         TestUtils.loadBaseUrlPage(getDriver(), getWait());
 
-        if (TestUtils.isH2HeaderExists(getDriver())) {
+        if (TestUtils.isMAIN_MENUExists(getDriver())) {
             Reporter.log("BaseURL page was loaded successfully ", true);
         } else {
             TestUtils.reLoadBaseUrlPage(getDriver(), getWait());

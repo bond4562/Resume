@@ -23,17 +23,17 @@ public class TestUtils {
 
     public static void reLoadBaseUrlPage(WebDriver driver, WebDriverWait wait) {
         int count = 0;
-        while (count <= 3 && !(isH2HeaderExists(driver))) {
+        while (count <= 3 && !(isMAIN_MENUExists(driver))) {
             loadBaseUrlPage(driver, wait);
             count++;
         }
 
-        if (count == 3 && !isH2HeaderExists(driver)) {
+        if (count == 3 && !isMAIN_MENUExists(driver)) {
             Reporter.log("!!!!! Error !!!!! BaseURL page was NOT loaded. Re-Run jobs\n", true);
         }
     }
 
-    public static boolean isH2HeaderExists(WebDriver driver) {
+    public static boolean isMAIN_MENUExists(WebDriver driver) {
         boolean isExists = true;
         try {
             driver.findElement(MAIN_MENU);
