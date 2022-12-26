@@ -43,7 +43,7 @@ public class MainTest extends BaseTest {
         );
 
         List<String> actButtonTexts = openBaseURL()
-                .getButtonsMainMenuTexts();
+                .getButtonsTextsMainMenu();
 
         assertEquals(actButtonTexts, expButtonTexts);
     }
@@ -58,8 +58,8 @@ public class MainTest extends BaseTest {
         );
 
         List<String> actButtonTexts = openBaseURL()
-                .locateAndMoveDropDownGame()
-                .getButtonsGameTexts();
+                .locateAndMoveToGameDropDownMainMenu()
+                .getLinksGameDropDown();
 
         assertEquals(actButtonTexts, expButtonTexts);
     }
