@@ -24,7 +24,7 @@ public class MainTest extends BaseTest {
         final int expAmountButton = 7;
 
         int actAmountButton = openBaseURL()
-                .amountButtonMainMenu();
+                .amountButtonsMainMenu();
 
         assertEquals(actAmountButton, expAmountButton);
     }
@@ -43,9 +43,27 @@ public class MainTest extends BaseTest {
         );
 
         List<String> actButtonTexts = openBaseURL()
-                .searchButtonMainMenu();
+                .getButtonsMainMenuTexts();
 
         assertEquals(actButtonTexts, expButtonTexts);
     }
+
+    @Test(
+            testName = "проверка текста кнопок выпадающего списка \"Игра\"")
+    public void test04() {
+        final List<String> expButtonTexts = List.of(
+                "Об игре",
+                "F.A.Q.",
+                "Словарь"
+        );
+
+        List<String> actButtonTexts = openBaseURL()
+                .locateAndMoveDropDownGame()
+                .getButtonsGameTexts();
+
+        assertEquals(actButtonTexts, expButtonTexts);
+    }
+
+
 
 }

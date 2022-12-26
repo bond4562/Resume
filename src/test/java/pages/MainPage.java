@@ -10,21 +10,35 @@ import java.util.List;
 public class MainPage extends TopBarPage {
 
     @FindBy(xpath = "//ul[@class='nav navbar-nav']/li")
-    private List<WebElement> searchButton;
+    private List<WebElement> searchButtons;
+    @FindBy(xpath = "//li[@class='has_submenu dropdown']//a[text()='Игра']")
+    private WebElement searchButtonGame;
+    @FindBy(xpath = "//li[@class='has_submenu dropdown'][1]//li")
+    private List<WebElement> searchButtonsGame;
 
     public MainPage(WebDriver driver) {
         super(driver);
     }
+    public List<String> getButtonsMainMenuTexts() {
 
-    public List<String> searchButtonMainMenu() {
+        return getTexts(searchButtons);
+    }
+    public int amountButtonsMainMenu() {
 
-        return getTexts(searchButton);
+        return getListSize(searchButtons);
     }
 
-    public int amountButtonMainMenu() {
+    public List<String> getButtonsGameTexts() {
 
-        return getListSize(searchButton);
+        return getTexts(searchButtonsGame);
     }
 
+    public MainPage locateAndMoveDropDownGame() {
+        int xCord = getPoint(searchButtonGame).getX();
+        int yCord = getPoint(searchButtonGame).getY();
+
+       locateAndMoveElement(searchButtonGame, xCord,yCord);
+       return this;
+    }
 
 }

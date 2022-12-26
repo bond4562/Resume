@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ebb8cd9-76fe-47d3-b9b4-60e6af28a6e5" name="Changes" comment="" />
+    <list default="true" id="0ebb8cd9-76fe-47d3-b9b4-60e6af28a6e5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/base_abstract/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/base_abstract/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MainTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +29,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/pages/MainPage.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -111,24 +119,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="API_MainTest.test33" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Reign_of_Guilds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.api" />
-      <option name="MAIN_CLASS_NAME" value="tests.api.API_MainTest" />
-      <option name="METHOD_NAME" value="test33" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Reign_of_Guilds" />
       <extension name="coverage">
@@ -199,6 +189,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.test04" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Reign_of_Guilds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MainTest" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <module name="Reign_of_Guilds" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,10 +253,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MainTest (1)" />
+        <item itemvalue="TestNG.MainTest.test04" />
         <item itemvalue="TestNG.MainTest.test02" />
         <item itemvalue="TestNG.MainTest.test01" />
         <item itemvalue="TestNG.MainTest" />
-        <item itemvalue="TestNG.API_MainTest.test33" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +269,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667881208395</updated>
       <workItem from="1672024302785" duration="586000" />
-      <workItem from="1672028155345" duration="3527000" />
+      <workItem from="1672028155345" duration="11954000" />
     </task>
     <servers />
   </component>

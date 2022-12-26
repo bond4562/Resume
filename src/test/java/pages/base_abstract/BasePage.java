@@ -294,4 +294,13 @@ public abstract class BasePage {
         return elementsSize == count;
     }
 
+    protected Point getPoint(WebElement webElement) {
+        return webElement.getLocation();
+    }
+
+    protected void locateAndMoveElement(WebElement webElement, int xCord, int yCord) {
+        getActions().scrollByAmount(xCord, yCord).moveToElement(webElement).build().perform();
+    }
+
+
 }
