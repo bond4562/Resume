@@ -1,7 +1,11 @@
 package tests;
 
 import base.BaseTest;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import java.util.List;
 import static org.testng.Assert.assertEquals;
 
@@ -64,5 +68,16 @@ public class MainTest extends BaseTest {
         assertEquals(actButtonTexts, expButtonTexts);
     }
 
+    @Test(
+            testName = "проверка перехода кнопок соц.сети")
+    public void test05() {
+        final String expURL = "https://vk.com/reignofguilds";
+
+        String actURL = openBaseURL()
+                .clickSocialMediaElement(0)
+                .getCurrentURL();
+
+        assertEquals(actURL, expURL);
+    }
 
 }
