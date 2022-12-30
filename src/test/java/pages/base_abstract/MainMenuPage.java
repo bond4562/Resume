@@ -18,7 +18,6 @@ public abstract class MainMenuPage extends BasePage {
     public MainMenuPage(WebDriver driver) {
         super(driver);
     }
-
     public List<String> getButtonsTextsMainMenu() {
 
         return getTexts(searchButtonsMainMenu);
@@ -27,12 +26,10 @@ public abstract class MainMenuPage extends BasePage {
 
         return getListSize(searchButtonsMainMenu);
     }
-
     public List<String> getLinksGameDropDown() {
 
         return getTexts(gameLinksGameDropDownMainMenu);
     }
-
     public MainMenuPage locateAndMoveToGameDropDownMainMenu() {
         int xCord = getPoint(searchButtonGameMainMenu).getX();
         int yCord = getPoint(searchButtonGameMainMenu).getY();
@@ -40,6 +37,7 @@ public abstract class MainMenuPage extends BasePage {
         locateAndMoveElement(searchButtonGameMainMenu,xCord,yCord);
         return this;
     }
+
 
 
 }
