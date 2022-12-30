@@ -1,10 +1,10 @@
 package tests;
 
 import base.BaseTest;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
+import base.TestData;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
+import pages.MainPage;
 
 import java.util.List;
 import static org.testng.Assert.assertEquals;
@@ -79,5 +79,31 @@ public class MainTest extends BaseTest {
 
         assertEquals(actURL, expURL);
     }
+
+    @Test(
+            testName = "проверка кнопок локализации",
+            dataProvider = "localizationButton", dataProviderClass = TestData.class
+    )
+    public void test06(int index, String expURL, String expTitle, List<String> getTextButtonsMainMenu) {
+
+        MainPage mainPage = openBaseURL()
+                .clickButtonLocalization(index);
+
+        final String actURL = mainPage
+                .getCurrentURL();
+        final String actTitle = mainPage
+                .getTitle();
+
+        List<String> actTextButtons = mainPage
+                .getButtonsTextsMainMenu();
+
+        Reporter.log("\n локализация: " + expURL + "\n текст меню: " + actTextButtons,true);
+
+        assertEquals(actTextButtons, getTextButtonsMainMenu);
+        assertEquals(actURL, expURL);
+        assertEquals(actTitle, expTitle);
+    }
+
+
 
 }
