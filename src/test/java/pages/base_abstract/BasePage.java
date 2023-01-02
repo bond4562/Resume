@@ -1,6 +1,8 @@
 package pages.base_abstract;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.PageFactory;
@@ -61,7 +63,6 @@ public abstract class BasePage {
 
         return getDriver().getCurrentUrl();
     }
-
 
     protected String getText(WebElement element) {
         if (!element.getText().isEmpty()) {
@@ -155,7 +156,6 @@ public abstract class BasePage {
         wait20ElementToBeVisible(element);
         wait20ElementToBeClickable(element).click();
     }
-
 
     protected void clickEnter(WebElement element) {
         getWait10().until(ExpectedConditions.visibilityOf(element));
@@ -300,6 +300,17 @@ public abstract class BasePage {
 
     protected void locateAndMoveElement(WebElement webElement, int xCord, int yCord) {
         getActions().scrollByAmount(xCord, yCord).moveToElement(webElement).build().perform();
+    }
+
+    protected void switchToFrame() {
+        getDriver().switchTo().frame(0);
+    }
+    protected void switchToFrame(int indexFrame) {
+        getDriver().switchTo().frame(indexFrame);
+    }
+
+    protected void switchToFrameDefaultContent() {
+        getDriver().switchTo().defaultContent();
     }
 
 

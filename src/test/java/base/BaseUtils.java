@@ -13,11 +13,8 @@ import java.util.Properties;
 public final class BaseUtils {
 
     private static final String ENV_CHROME_OPTIONS = "CHROME_OPTIONS";
-
     static final String PREFIX_PROP = "default.";
-
     private static final String PROP_CHROME_OPTIONS = PREFIX_PROP + ENV_CHROME_OPTIONS.toLowerCase();
-
     private static Properties properties;
 
     private static void initProperties() {
@@ -52,10 +49,6 @@ public final class BaseUtils {
         }
 
         WebDriverManager.chromedriver().setup();
-    }
-
-    static Properties getProperties() {
-        return properties;
     }
 
     static boolean isServerRun() {
