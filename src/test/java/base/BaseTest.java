@@ -18,7 +18,6 @@ import java.time.Duration;
 public abstract class BaseTest {
 
     private final static String BASE_URL = "https://reignofguilds.com/ru/";
-
     private WebDriver driver;
     private WebDriverWait webDriverWait;
 
@@ -75,13 +74,4 @@ public abstract class BaseTest {
         return new MainPage(getDriver());
     }
 
-    public String getExternalPageTitle() {
-
-        return getDriver().getTitle();
-    }
-
-    public String getExternalPageURL() {
-
-        return getDriver().getCurrentUrl();
-    }
 }

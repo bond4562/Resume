@@ -11,7 +11,7 @@ public abstract class MainMenuPage extends BasePage {
     @FindBy(xpath = SUBMENU_DROPDOWN + "//a[text()='Игра']")
     private WebElement searchButtonGameMainMenu;
     @FindBy(xpath = SUBMENU_DROPDOWN +"[1]//li")
-    private List<WebElement> gameLinksGameDropDownMainMenu;
+    private List<WebElement> gameLinksDropDownMainMenu;
     @FindBy(xpath = "//ul[@class='nav navbar-nav']/li")
     private List<WebElement> searchButtonsMainMenu;
 
@@ -28,7 +28,7 @@ public abstract class MainMenuPage extends BasePage {
     }
     public List<String> getLinksGameDropDown() {
 
-        return getTexts(gameLinksGameDropDownMainMenu);
+        return getTexts(gameLinksDropDownMainMenu);
     }
     public MainMenuPage locateAndMoveToGameDropDownMainMenu() {
         int xCord = getPoint(searchButtonGameMainMenu).getX();
