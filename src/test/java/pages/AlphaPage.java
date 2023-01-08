@@ -1,9 +1,9 @@
 package pages;
 
 import org.openqa.selenium.WebDriver;
-import pages.base_abstract.TopBarPage;
+import pages.base_abstract.HeaderPage;
 
-public class AlphaPage extends TopBarPage {
+public class AlphaPage extends HeaderPage {
 
     public AlphaPage(WebDriver driver) {
         super(driver);
