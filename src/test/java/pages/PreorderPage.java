@@ -1,9 +1,9 @@
 package pages;
 
 import org.openqa.selenium.WebDriver;
-import pages.base_abstract.TopBarPage;
+import pages.base_abstract.HeaderPage;
 
-public class PreorderPage extends TopBarPage {
+public class PreorderPage extends HeaderPage {
 
     public PreorderPage(WebDriver driver) {
         super(driver);

@@ -4,9 +4,9 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.Reporter;
-import pages.base_abstract.TopBarPage;
+import pages.base_abstract.HeaderPage;
 
-public class LoginPage extends TopBarPage {
+public class LoginPage extends HeaderPage {
 
     @FindBy(xpath = "//input[@name='email']")
     private WebElement inputEmail;
