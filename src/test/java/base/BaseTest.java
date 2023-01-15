@@ -23,7 +23,6 @@ public abstract class BaseTest {
 
     @BeforeSuite
     protected void beforeSuite(ITestContext context) {
-
         Reporter.log(ReportUtils.getReportHeader(context), true);
     }
 
