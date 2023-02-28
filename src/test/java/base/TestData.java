@@ -7,9 +7,9 @@ import java.util.List;
 public class TestData {
 
     private static final List<String> expButtonsTextDE = List.of(
-           "Neuigkeiten",
+            "Neuigkeiten",
             "Entwicklungsstand",
-            "Alpha",
+            "Playtest (Steam)",
             "Spiel",
             "Entwicklung",
             "Medien",
@@ -19,7 +19,7 @@ public class TestData {
     private static final List<String> expButtonsTextEN = List.of(
             "News",
             "Roadmap",
-            "Alpha",
+            "Playtest (Steam)",
             "Game",
             "Development",
             "Media",
@@ -29,7 +29,7 @@ public class TestData {
     private static final List<String> expButtonsTextRU = List.of(
             "Новости",
             "Дорожная карта",
-            "Альфа",
+            "Открытый тест (Steam)",
             "Игра",
             "Разработка",
             "Медиа",
@@ -39,13 +39,12 @@ public class TestData {
     @DataProvider(name = "localizationButton")
     public static Object[][] localizationButtonsTestDataProvider() {
 
-        return new Object[][] {
+        return new Object[][]{
                 {0, "https://reignofguilds.com/de/", "Magisches mittelalterliches MMORPG", expButtonsTextDE},
                 {1, "https://reignofguilds.com/en/", "Classic MMORPG in dark magical middle ages", expButtonsTextEN},
                 {2, "https://reignofguilds.com/ru/", "Классическая MMORPG в мрачном средневековье", expButtonsTextRU}
         };
     }
-
 
 
 }

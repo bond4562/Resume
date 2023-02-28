@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import pages.MainPage;
 
 import java.util.List;
+
 import static org.testng.Assert.assertEquals;
 
 public class MainTest extends BaseTest {
@@ -39,7 +40,7 @@ public class MainTest extends BaseTest {
         final List<String> expButtonTexts = List.of(
                 "Новости",
                 "Дорожная карта",
-                "Альфа",
+                "Открытый тест (Steam)",
                 "Игра",
                 "Разработка",
                 "Медиа",
@@ -97,13 +98,12 @@ public class MainTest extends BaseTest {
         List<String> actTextButtons = mainPage
                 .getButtonsTextsMainMenu();
 
-        Reporter.log("\n локализация: " + expURL + "\n текст меню: " + actTextButtons,true);
+        Reporter.log("\n локализация: " + expURL + "\n текст меню: " + actTextButtons, true);
 
         assertEquals(actTextButtons, getTextButtonsMainMenu);
         assertEquals(actURL, expURL);
         assertEquals(actTitle, expTitle);
     }
-
 
 
 }
